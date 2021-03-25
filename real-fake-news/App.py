@@ -34,7 +34,7 @@ def Index():
         context = mylist
     )
 
-@app.route('/bbc')
+@app.route('/left-wing-news')
 def bbc():
     newsapi = NewsApiClient(api_key)
     topheadlines = newsapi.get_top_headlines(
@@ -58,8 +58,8 @@ def bbc():
     
     mylist = zip(news, desc, img, url, source)
     return render_template(
-        'bbc.html',
-        title="BBC",
+        'left-wing-news.html',
+        title="LEFT",
         context=mylist
         )
 
@@ -90,7 +90,7 @@ def rightwing():
     mylist = zip(news, desc, img, url, source)
     return render_template(
         'right-wing-news.html',
-        title="FAR RIGHT XTREEEMISTS WHO LOVE MTN DEW",
+        title="RIGHT",
         context=mylist
     )
 
