@@ -59,19 +59,19 @@ def bbc():
     mylist = zip(news, desc, img, url, source)
     return render_template(
         'bbc.html',
-        title="BBC",
+        title="Starbucks Sipping Hall Monitors",
         context=mylist
         )
 
 
 
 
-@app.route('/nazinews')
-def nazinews():
+@app.route('/right-wing-news')
+def rightwing():
     newsapi = NewsApiClient(api_key)
-    nazinewz = newsapi.get_top_headlines(sources="breitbart-news, fox-news, national-review,  the-american-conservative, the-hill, the-jerusalem-post,  the-washington-times")
+    rightwing = newsapi.get_top_headlines(sources="breitbart-news, fox-news, national-review,  the-american-conservative, the-hill, the-jerusalem-post,  the-washington-times")
 
-    articles = nazinewz['articles']
+    articles = rightwing['articles']
 
     news = []
     img = []
@@ -89,8 +89,8 @@ def nazinews():
     
     mylist = zip(news, desc, img, url, source)
     return render_template(
-        'nazinews.html',
-        title="FAR RIGHT XTREEEMISTS WHO LOVE MTN DEW",
+        'right-wing-news.html',
+        title="Mountain Dew Lovin' Far Right Extremists",
         context=mylist
     )
 
