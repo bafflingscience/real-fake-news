@@ -2,7 +2,9 @@
 ## What Real Fake News is?
 I'm glad you asked.
 
-Real Fake News is made up of a team of Misinformation connaisseurs of the Highest Degree.
+Real Fake News is made up of a team of Misinformation Content Delivery Specialists, who take great pride in distracting people from the issues that really matter. 
+Each member of our crew is a true Connaisseurs of Diabolical Mind Control.
+Who are these people? Sorry, that is classified of course! 
 
 We Strive to bring you the latest misleading headlines, that you know you can't trust.
 We know you want the least relevent stories, the ones that will make you feel the worst. 
