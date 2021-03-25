@@ -35,10 +35,9 @@ def Index():
     )
 
 @app.route('/left-wing-news')
-def bbc():
+def leftwing():
     newsapi = NewsApiClient(api_key)
-    topheadlines = newsapi.get_top_headlines(
-    sources="abc-news, al-jazeera-english, associated-press, axios, bbc-news, bloomberg, business-insider, buzzfeed, cbs-news, cnn, independent, msnbc, mtv-news, national-geographic, nbc-news, newsweek, new-york-magazine, politico, the-hill, the-huffington-post, the-wall-street-journal,the-washington-post, time, usa-today, vice-news")
+    leftwing_headlines = newsapi.get_top_headlines(sources="abc-news, al-jazeera-english, associated-press, axios, bbc-news, bloomberg, business-insider, buzzfeed, cbs-news, cnn, independent, msnbc, mtv-news, national-geographic, nbc-news, newsweek, new-york-magazine, politico, the-hill, the-huffington-post, the-wall-street-journal,the-washington-post, time, usa-today, vice-news")
     
     articles = topheadlines['articles']
     
@@ -64,12 +63,10 @@ def bbc():
         )
 
 
-
-
 @app.route('/right-wing-news')
 def rightwing():
     newsapi = NewsApiClient(api_key)
-    rightwing = newsapi.get_top_headlines(sources="breitbart-news, fox-news, national-review,  the-american-conservative, the-hill, the-jerusalem-post,  the-washington-times")
+    rightwing_headlines = newsapi.get_top_headlines(sources="breitbart-news, fox-news, national-review,  the-american-conservative, the-hill, the-jerusalem-post,  the-washington-times")
 
     articles = nazinewz['articles']
 
