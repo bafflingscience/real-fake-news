@@ -6,6 +6,8 @@ Real Fake News is made up of a team of Misinformation Content Delivery Specialis
 Each member of our crew is a true Connaisseurs of Diabolical Mind Control.
 Who are these people? Sorry, that is classified of course! 
 
+![alt](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.Co5_qd9j8t1rmQuAL0tT4wHaEK%26pid%3DApi&f=1 "diabolical villain cartoon character")
+
 We Strive to bring you the latest misleading headlines, that you know you can't trust.
 We know you want the least relevent stories, the ones that will make you feel the worst. 
 We have hand selected the most abhorrant information on the internet, and force feed it to the unwilling masses.
